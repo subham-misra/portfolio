@@ -1,0 +1,343 @@
+@media(max-width:1295px){
+    .home-section .home-img .img-box img {
+        height: 221px;
+        position: absolute;
+        top: 30%;
+        right: 17%;
+    }.home-section .home-img .img-box {
+        width: 54%;
+    }
+}
+
+@media(min-width:1292px){
+    .home-section .home-img img{
+        width: 158px;
+    }
+}
+@media(max-width:991px){
+    .portfolio-section .portfolio-item,
+    .service-section .service-item{
+        float: 0 0 50%;
+        max-width: 50%;
+
+    }
+}
+
+@media(max-width:767px){
+    .contact-section .w-50,
+    .contact-section .contact-item,
+    .portfolio-section .portfolio-item,
+    .service-section .service-item,
+    .about-section .skills .skill-item,
+    .about-section .about-info,
+    .about-section .about-img,
+    .home-section .home-text,
+    .home-section .home-img{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .home-section .home-text{
+        order: 2;
+    }.contact-section .submit-btn,
+    .home-section .home-text{
+        text-align: center;
+    }.home-section .full-screen{
+        padding: 100px 0;
+    }.home-section .home-img .img-box{
+        margin-bottom: 40px;
+        max-width: 350px;
+    }.effect-3{
+        margin-left: -60px;
+
+    }.effect-4{
+        left: 15%;
+    }.effect-5{
+        right: 4%;
+    }.about-section .about-img{
+        padding-bottom: 30px;
+    }.about-section .timeline .timeline-item:nth-child(odd){
+        padding-right: 15px;
+        text-align: left;
+        padding-left: 75px;
+    }.about-section .timeline .timeline-item:nth-child(even){
+        padding-left: 75px;
+        
+    }.about-section .timeline:before{
+        left: 35px;
+    }.about-section .timeline .timeline-item:nth-child(odd) .icon{
+        right: auto;
+        left: -60px;
+    }.about-section .timeline .timeline-item:nth-child(even) .icon{
+        left: -60px;
+    }.about-section .timeline .timeline-item{
+        margin-bottom: 40px;
+    }.about-section .timeline .timeline-item:last-child{
+        margin-bottom: 0;
+    }.about-section .timeline .timeline-item:nth-child(odd) .timeline-item-inner:before{
+        left: -30px;
+        right: auto;
+
+    }
+}
+
+@media(max-width:574px){
+    .home-section .home-img .img-box{
+        max-width: 260px;
+    }
+    .home-section .home-text h2{
+        font-size: 40px;
+    }
+}
+
+@media(max-width:460px)
+{
+    .home-section .about-section .contact-section .portfolio-section .service-section{
+        width: 100%;
+    }
+    .about-section .row-3 .about-tabs h3{
+        align-items: center;
+    }
+}
+@media(max-width:420px){
+    
+    .about-section .about-img {
+        margin-left: 36px;
+    }
+    .about-section .about-img .img-box img{
+        position: absolute;
+        left: 13%;
+    }
+}
+
+@media only screen and (max-width:360px){
+    body{
+        max-width: 360px;
+        overflow: scroll;
+    }#navbar {
+        width: 373px;
+        font-size: 10px;
+    }
+    .home-section .full-screen{
+    
+        display: flex;
+        flex-direction: row;
+    
+    }.home-section .full-screen .home-img .inner-shadow{
+        box-shadow: none;
+    }
+    .home-section .home-img .img-box{
+    
+       
+        border: none;
+    
+    }
+    .home-section .home-img .img-box img{
+        height: 230px;
+        width: 190px;
+        border-radius: 50%;
+        position: absolute;
+        top: 21%;
+        left: 21%;
+    
+    }.home-section .home-text {
+        align-items: center;
+        width: 270px;
+        position: absolute;
+        top: 63%;
+        left: 10%;
+    }
+    .home-section .home-text p{
+        font-size: 12px;
+        text-transform: capitalize;
+        margin: 0;
+    }.home-section .home-text h2{
+        font-size: 28px;
+        font-weight: 400;
+        color: black;
+        margin: 0;
+    
+    }.home-section .home-text .btn{
+        margin-top: 10px;
+        text-decoration: none;
+        padding: 2px 8px;
+       align-items: center;
+        font-weight: 400;
+        position: absolute;
+        left: 26%;
+    }
+
+    /*...............about section...........................*/
+    .about-section .container{
+        position: relative;
+    }.about-section .row-1 .about-img .img-box img {
+        position: absolute;
+        left: 20%;
+    }
+    .about-section .container .row-1 .about-img{
+      
+        width: 290px;
+        height: 218px;
+    }.about-section .container .row-1 .about-img .img-box{
+        position: absolute;
+        left: 13%;
+    }.about-section .container .row-1 .about-img .social-links{
+        position: absolute;
+        left: 20%;
+        top: 92%;
+    }.about-section .container .row-1 .about-info{
+        max-width: 295px;
+        position: absolute;
+        top: 104%;
+        font-size: 10px;
+    }
+    .about-section .container .skills{
+        position: absolute;
+        top: 178%;
+        left: 0%;
+        margin-top: 3px;
+        width: 338px;height: 1370px;
+    }.about-section .container .skills .section-title {
+        width: 13%;
+    }
+    .about-section .container .skills .row-2{
+        display: flex;
+        flex-direction: column;
+    }.about-section .container .skills .row-2 .box-1,.box-2,.box-3,.box-4,.box-5,.box-6{
+        float: left;
+        margin: 1px 6px;
+    }.box-1 .box .percent svg {
+        position: absolute;
+        left: -11px;
+        width: 151px;
+    }.box-2 .box .percent svg {
+        position: absolute;
+        left: -3px;
+        width: 151px;
+    }.box-3 .box .percent svg {
+        position: absolute;
+        left: -3px;
+        width: 151px;
+    }.box-4 .box .percent svg {
+        position: absolute;
+        left: -3px;
+        width: 151px;
+    }.box-5 .box .percent svg {
+        position: absolute;
+        left: -3px;
+        width: 151px;
+    }.box-6 .box .percent svg {
+        position: absolute;
+        left: -14px;
+        width: 151px;
+    }.about-section .container .skills .row-2 .box-2 .img img{
+        width: 135px;
+    }.about-section .container .skills .row-2 .box-3 .img img{
+        width: 135px;
+    }.about-section .container .skills .row-2 .box-4 .img img{
+        width: 135px;
+    }.about-section .container .skills .row-2 .box-5 .img img{
+        width: 135px;
+    }
+    .about-section .row-3{
+        position: absolute;
+        top: 598%;
+        left: 0%;
+        width: 350px;
+    }.about-section .about-tabs {
+        width: 28%;
+    }
+    .service-section{
+        position: absolute;
+        top: 512%;
+        left: 0%;
+    }.portfolio-section{
+        position: absolute;
+        top: 949%;
+        left: 0%;
+        max-width: 360px;
+    }.portfolio-section .portfolio-item{
+        display: flex;
+        flex-direction: column;
+        
+    }.portfolio-section .portfolio-item .portfolio-item-inner{
+        width: 100%;
+        height: 222px;
+        margin: 2px;
+    }
+    .contact-section{
+        position: absolute;
+        top: 1320%;
+        left: 0%;
+    }
+    .boxfoot{
+        background-color: blueviolet;
+        height: 36px;
+        width: 370px;
+        position: absolute;
+        top: 1510%;
+    }
+    .foot{
+        display: flex;
+        position: absolute;
+        left: 28%;
+    }
+    .foot p{
+        font-size: 13px;
+        font-family: 600;
+        color: white;
+        margin: 2px 7px;
+        padding-top: 10px;
+    }.foot img{
+        height: 22px;
+        width: 22px;
+        margin-top: 11px;
+    }
+}
+
+    /*.about-section .container .skills .row-2 .box-1,.box-2,.box-3,.box-4,.box-5,.box-6{
+        width: 280;
+        height: 140px;
+    }.about-section .container .skills .row-2 .box-1{
+        position: absolute;
+        left: 0%;
+        width: 100%;
+    }.about-section .container .skills .row-2 .box-1 .img img{
+        width: 20px;
+        height: 20px;
+    }.about-section .container .skills .row-2 .box-1 .box{
+        width: 30px;
+        height: 30px;
+    }
+    .about-section .timeline .timeline-item:nth-child(odd){
+        padding-right: 15px;
+        text-align: left;
+        padding-left: 75px;
+    }.about-section .row-3{
+        position: absolute;
+        top: 336%;
+        margin-top: 5px;
+    }
+    .about-section .timeline .timeline-item:nth-child(even){
+        padding-left: 75px;
+        
+    }.about-section .timeline:before{
+        left: 35px;
+    }.about-section .timeline .timeline-item:nth-child(odd) .icon{
+        right: auto;
+        left: -60px;
+    }.about-section .timeline .timeline-item:nth-child(even) .icon{
+        left: -60px;
+    }.about-section .timeline .timeline-item{
+        margin-bottom: 40px;
+    }.about-section .timeline .timeline-item:last-child{
+        margin-bottom: 0;
+    }.about-section .timeline .timeline-item:nth-child(odd) .timeline-item-inner:before{
+        left: -30px;
+        right: auto;
+
+    }.service{
+        position: absolute;
+        top: 300%;
+    }
+}
+*/
