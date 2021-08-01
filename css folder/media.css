@@ -109,12 +109,12 @@
     }
 }
 
-@media only screen and (max-width:380px){
+@media only screen and (max-width:395px){
     body{
-        max-width: 360px;
+        max-width: 395px;
         overflow: scroll;
     }#navbar {
-        width: 373px;
+        width: 380px;
         font-size: 10px;
     }
     .home-section .full-screen{
