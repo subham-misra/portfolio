@@ -121,7 +121,7 @@ function show_2() {
   //...........wave text
   str += `<div class="portfolio-item-inner outer-shadow">
   <div class="portfolio-item-img">
-    <img src="C:/Users/Subham/Desktop/Desktop Files/WEB DEV COLLEGE/Tech Fest-Portfolio Website/project-1/pic12 (2).png" alt="website"
+    <img src="project-1/pic12 (2).png" alt="website"
       data-screenshots="project-1/pic1.png,project-1/pic2.png,project-1/pic3.png,project-1/pic4.png,project-1/pic5.png,project-1/pic6.png,project-1/pic7.png,project-1/pic8.png,project-1/pic9.png,project-1/pic12.png">
 
 
