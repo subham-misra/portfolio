@@ -114,7 +114,7 @@
         max-width: 395px;
         overflow: scroll;
     }#navbar {
-        width: 380px;
+        width: 395px;
         font-size: 10px;
     }
     .home-section .full-screen{
@@ -272,7 +272,7 @@
     .boxfoot{
         background-color: blueviolet;
         height: 36px;
-        width: 370px;
+        width: 395px;
         position: absolute;
         top: 1510%;
     }
